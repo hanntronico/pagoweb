@@ -43,7 +43,9 @@
               Debe aceptar los término y condiciones <br>
               
               <input type="checkbox" name="ckbTerms" id="ckbTerms" onclick="visaNetEc3()"> 
-              <label for="ckbTerms">Acepto los <a href="#" target="_blank">Términos y condiciones</a></label>
+              <label for="ckbTerms">
+                Acepto los <a href="#" target="_blank">Términos y condiciones</a>
+              </label>
 
               <form id="frmVisaNet" action="http://sacomicita.com/visanetweb/endpoint.php?amount=<?php echo $amount;?>&purchaseNumber=<?php echo $purchaseNumber;?>&reservaid=<?php echo $reservaid;?>">
 
