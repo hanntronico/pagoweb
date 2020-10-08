@@ -34,8 +34,6 @@
     // echo "<br>";
 
 
-
-
 // echo "MERCHANT_ID: ".VISA_MERCHANT_ID."<br>";
 // echo "USER: ".VISA_USER."<br>";
 // echo "PWD: ".VISA_PWD."<br>";
@@ -45,8 +43,6 @@
 // echo "URL_AUTHORIZATION: ".VISA_URL_AUTHORIZATION."<br>";
 
 
-
-    // exit();
 ?>
 
 <!DOCTYPE html>
