@@ -14,17 +14,17 @@
 
 
 
-if (isset($data->dataMap)) {
-  if ($data->dataMap->ACTION_CODE == "000") {
+  if (isset($data->dataMap)) {
+    if ($data->dataMap->ACTION_CODE == "000") {
 
-        $url="https://concebirapp.meteorapp.com/pago-visanet";
+          $url="https://concebirapp.meteorapp.com/pago-visanet";
 
-        $postData = array(
-            'reservaId' => $reservaid
-        );
+          $postData = array(
+              'reservaId' => $reservaid
+          );
 
+    }
   }
-}
 
 
 json_encode($postData);
